@@ -1,0 +1,124 @@
+.LoginAndRegister {
+}
+
+#form-login {
+  left: 50%;
+  top: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  outline: none;
+  width: 500px;
+  height: 300px;
+  /* background-color: gray; */
+  background-image: url(http://tgo.vn/wp-content/uploads/2021/01/white-background-2.jpg);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#form-register {
+  left: 50%;
+  top: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  outline: none;
+  width: 500px;
+  height: 300px;
+  /* background-color: gray; */
+  background-image: url(http://tgo.vn/wp-content/uploads/2021/01/white-background-2.jpg);
+  padding: 40px;
+}
+
+#form-login > div > h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#form-register > div > h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#formlogin-header {
+  /* background-color: red; */
+  background-image: url(https://www.sarissadevries.com/wp-content/uploads/2019/07/blue.jpg);
+  width: 500px;
+  margin-left: -40px;
+  margin-top: -40px;
+  margin-bottom: -16px;
+  height: 80px;
+  padding-top: 21px;
+  border-radius: 10px 10px 0 0;
+}
+
+#formregister-header {
+  /* background-color: red; */
+  background-image: url(https://www.sarissadevries.com/wp-content/uploads/2019/07/blue.jpg);
+  width: 500px;
+  margin-left: -40px;
+  margin-top: -40px;
+  margin-bottom: -16px;
+  height: 80px;
+  padding-top: 21px;
+}
+
+.form-group {
+  margin-left: 50px;
+}
+
+hr {
+  margin-left: -40px;
+  height: 2px;
+}
+
+.help-block {
+  position: absolute;
+  right: -70px;
+  top: 0px;
+  height: 5px;
+  font-size: medium;
+  color: red;
+}
+
+.red::placeholder {
+  color: red;
+}
+
+a {
+  font-size: medium;
+}
+
+.divlogin {
+  width: 1920px;
+  height: 937px;
+  background-image: url(https://wallpaperaccess.com/full/1285952.jpg);
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+}
+
+#inputpassword {
+  border-radius: 0 5px 5px 0;
+}
+
+#inputusername {
+  border-radius: 0 5px 5px 0;
+}
+
+input:focus {
+  border: 1px solid rgba(91, 180, 224);
+  box-shadow: 0 0 5px rgba(91, 180, 224);
+}
